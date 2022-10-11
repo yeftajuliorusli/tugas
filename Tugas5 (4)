@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int prima, a, b = 0;
+  cout << "Silahkan Masukkan Bilangan = ";
+  cin >> prima;
+  for (a=2; a<=prima/2; a++){
+    if (prima%2 == 0){
+      b = 1;
+      break;
+    }
+  }
+  if (b == 0)
+    cout << "Bilangan " << prima << " termasuk bilangan prima\n";
+  else
+    cout << "Bilangan " << prima << " bukan bilangan prima\n";
+  return 0;
+}

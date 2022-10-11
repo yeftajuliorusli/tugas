@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  cout << "contoh program perulangan"<<endl;
+  for (int c = 0; c<10; c++){
+    cout << c+1<<endl;
+  }
+
+cout << '\n';
+cout << "perulangan menurun" << endl;
+for (int j=10; j > 0; j--){
+  cout << j <<endl;
+  }
+return 0;
+}
